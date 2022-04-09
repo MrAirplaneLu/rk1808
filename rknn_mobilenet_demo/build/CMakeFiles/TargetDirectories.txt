@@ -1,0 +1,7 @@
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/build/CMakeFiles/install/strip.dir
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/build/CMakeFiles/edit_cache.dir
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/build/CMakeFiles/rknn_mobilenet_demo.dir
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/build/CMakeFiles/install.dir
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/build/CMakeFiles/rebuild_cache.dir
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/build/CMakeFiles/list_install_components.dir
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/build/CMakeFiles/install/local.dir

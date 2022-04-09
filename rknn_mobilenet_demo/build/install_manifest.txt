@@ -1,0 +1,7 @@
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/install/rknn_mobilenet_demo/./rknn_mobilenet_demo
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/install/rknn_mobilenet_demo/.//model/mobilenet_v1_rv1109_rv1126.rknn
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/install/rknn_mobilenet_demo/.//model/mobilenet_v1_rk180x.rknn
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/install/rknn_mobilenet_demo/.//model/space_shuttle_224.jpg
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/install/rknn_mobilenet_demo/.//model/cat_224x224.jpg
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/install/rknn_mobilenet_demo/.//model/dog_224x224.jpg
+/home/panxiang/lcj/temp/NPU/npu_demo/rknn_mobilenet_demo/install/rknn_mobilenet_demo/lib/librknn_api.so
