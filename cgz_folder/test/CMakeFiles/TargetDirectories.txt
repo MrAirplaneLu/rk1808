@@ -1,0 +1,7 @@
+/home/tuto/code/1808/cgz_folder/test/CMakeFiles/install.dir
+/home/tuto/code/1808/cgz_folder/test/CMakeFiles/list_install_components.dir
+/home/tuto/code/1808/cgz_folder/test/CMakeFiles/rebuild_cache.dir
+/home/tuto/code/1808/cgz_folder/test/CMakeFiles/cgz_test.dir
+/home/tuto/code/1808/cgz_folder/test/CMakeFiles/install/strip.dir
+/home/tuto/code/1808/cgz_folder/test/CMakeFiles/install/local.dir
+/home/tuto/code/1808/cgz_folder/test/CMakeFiles/edit_cache.dir

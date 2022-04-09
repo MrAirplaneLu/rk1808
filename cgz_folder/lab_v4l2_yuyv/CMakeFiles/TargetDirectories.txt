@@ -1,0 +1,7 @@
+/home/panxiang/lcj/temp/NPU/lab_v4l2_yuyv/CMakeFiles/install/strip.dir
+/home/panxiang/lcj/temp/NPU/lab_v4l2_yuyv/CMakeFiles/edit_cache.dir
+/home/panxiang/lcj/temp/NPU/lab_v4l2_yuyv/CMakeFiles/v4l2grab.dir
+/home/panxiang/lcj/temp/NPU/lab_v4l2_yuyv/CMakeFiles/rebuild_cache.dir
+/home/panxiang/lcj/temp/NPU/lab_v4l2_yuyv/CMakeFiles/list_install_components.dir
+/home/panxiang/lcj/temp/NPU/lab_v4l2_yuyv/CMakeFiles/install/local.dir
+/home/panxiang/lcj/temp/NPU/lab_v4l2_yuyv/CMakeFiles/install.dir
