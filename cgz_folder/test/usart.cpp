@@ -236,12 +236,12 @@ int UART0_Recv(int fd, char *rcv_buf,int data_len)
     FD_ZERO(&fs_read);    
     FD_SET(fd,&fs_read);    
        
-    time.tv_sec = 10;    
+    time.tv_sec = 1;    
     time.tv_usec = 0;    
        
     //使用select实现串口的多路通信    
     fs_sel = select(fd+1,&fs_read,NULL,NULL,&time);    
-    printf("fs_sel = %d\n",fs_sel);    
+    // printf("fs_sel = %d\n",fs_sel);    
     if(fs_sel)    
     {    
         len = read(fd,rcv_buf,data_len);    
@@ -267,7 +267,7 @@ int UART0_Send(int fd, char *send_buf,int data_len)
     len = write(fd,send_buf,data_len);    
     if (len == data_len )    
     {    
-        printf("send data is %s\n",send_buf);  
+        // printf("send data is %s\n",send_buf);  
         return len;    
     }         
     else       

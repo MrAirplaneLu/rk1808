@@ -5,7 +5,7 @@
  * @email: guanzhou.cn@gmail.com
  * @Date: 2022-04-08 21:08:53
  * @LastEditors: guanzhou
- * @LastEditTime: 2022-04-09 19:12:06
+ * @LastEditTime: 2022-04-10 21:44:59
  */
 #include "v4l2grab.h"
 
@@ -55,19 +55,38 @@ int open_port(void)
 
 void* read_thread_func(void* args)
 {
+    printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
     char rcv_buf[256];
     int fd = *(int*)args;
-    while (1) //循环读取数据    
+    string buf = "";
+    while (1) //循环读取数据
     {   
         int len = UART0_Recv(fd, rcv_buf,sizeof(rcv_buf));    
         if(len > 0)    
-        {    
+        {   
+            cout << len << endl;
             rcv_buf[len] = '\0';    
-            printf("receive data is %s\n",rcv_buf);    
+            string temp(rcv_buf);
+            cout << "temp:\t" << temp << endl << endl;
+            while (temp.length() > 10 - buf.length())
+            {
+                int pos = 10 - buf.length();
+                buf += temp.substr(0, pos);
+                // printf("receive data is %s\n\n",temp);
+                cout << "buf:\t" << buf << endl;
+                buf = "";
+                temp = temp.substr(pos);
+            }
+            buf += temp;
+            if(buf.length() > 0 && buf[buf.length() - 1] == '\n')
+            {
+                buf = buf.substr(0,buf.length() - 1);
+            }
         }    
         else    
         {    
             // printf("cannot receive data\n");    
+            cout << "Node\n";
         }    
         sleep(1);    
     }                
@@ -79,15 +98,15 @@ void* write_thread_func(void* args)
 {
     printf("======================================\n");
     int fd = *(int*)args;
-    char send_buf[256] = "1234567890";
+    char send_buf[256] = "1234567890abcdef";
     // fgets(send_buf,256,stdin);   //输入内容，最大不超过40字节，fgets能吸收回车符，这样pc收到的数据就能自动换行     
     for(int i = 0;i < INT_MAX;i++)    
     {    
         int len = UART0_Send(fd,send_buf,40);    
-        if(len > 0)    
-            printf(" %d time send %d data successful\n",i,len);    
-        else    
-            printf("send data failed!\n");    
+        // if(len > 0)    
+        //     printf(" %d time send %d data successful\n",i,len);    
+        // else    
+        //     printf("send data failed!\n");    
                             
         sleep(1);    
     }    
@@ -108,7 +127,7 @@ int main(int argc, char **argv)
         printf("open failure : %s\n", strerror(errno));
     
         return FALSE;    
-    }    
+    }
      fd = UART0_Open(fd,argv[1]); //打开串口，返回文件描述符   
      // fd=open("dev/ttyS1", O_RDWR);
     //printf("fd= \n",fd);
@@ -126,7 +145,7 @@ int main(int argc, char **argv)
     pthread_t write_thread;
 
     pthread_create(&read_thread, NULL, read_thread_func, &fd);
-    pthread_create(&write_thread, NULL, write_thread_func, &fd);
+    // pthread_create(&write_thread, NULL, write_thread_func, &fd);
 
 
 

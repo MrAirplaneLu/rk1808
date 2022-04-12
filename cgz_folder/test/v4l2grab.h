@@ -5,7 +5,7 @@
  * @email: guanzhou.cn@gmail.com
  * @Date: 2022-04-08 21:08:53
  * @LastEditors: guanzhou
- * @LastEditTime: 2022-04-08 22:33:40
+ * @LastEditTime: 2022-04-10 20:57:01
  */
 /****************************************************/
 /*                                                  */
@@ -20,6 +20,7 @@
 #include <iostream>
 #include "opencv2/opencv.hpp"
 #include <stdio.h>
+#include <vector>
 using namespace std;
 
 int testFunc(int a)
