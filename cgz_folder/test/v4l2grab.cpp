@@ -5,7 +5,7 @@
  * @email: guanzhou.cn@gmail.com
  * @Date: 2022-04-08 21:08:53
  * @LastEditors: guanzhou
- * @LastEditTime: 2022-04-10 21:44:59
+ * @LastEditTime: 2022-04-15 00:50:59
  */
 #include "v4l2grab.h"
 
@@ -64,6 +64,11 @@ void* read_thread_func(void* args)
         int len = UART0_Recv(fd, rcv_buf,sizeof(rcv_buf));    
         if(len > 0)    
         {   
+
+
+            cout << int(*rcv_buf) << endl;
+            continue;
+
             cout << len << endl;
             rcv_buf[len] = '\0';    
             string temp(rcv_buf);

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tuto/code/1808/cgz_folder/test
+CMAKE_SOURCE_DIR = /home/tuto/code/rk1808/cgz_folder/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tuto/code/1808/cgz_folder/test
+CMAKE_BINARY_DIR = /home/tuto/code/rk1808/cgz_folder/test
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cgz_test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/cgz_test.dir/flags.make
 
 CMakeFiles/cgz_test.dir/usart.cpp.o: CMakeFiles/cgz_test.dir/flags.make
 CMakeFiles/cgz_test.dir/usart.cpp.o: usart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuto/code/1808/cgz_folder/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cgz_test.dir/usart.cpp.o"
-	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cgz_test.dir/usart.cpp.o -c /home/tuto/code/1808/cgz_folder/test/usart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuto/code/rk1808/cgz_folder/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cgz_test.dir/usart.cpp.o"
+	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cgz_test.dir/usart.cpp.o -c /home/tuto/code/rk1808/cgz_folder/test/usart.cpp
 
 CMakeFiles/cgz_test.dir/usart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cgz_test.dir/usart.cpp.i"
-	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tuto/code/1808/cgz_folder/test/usart.cpp > CMakeFiles/cgz_test.dir/usart.cpp.i
+	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tuto/code/rk1808/cgz_folder/test/usart.cpp > CMakeFiles/cgz_test.dir/usart.cpp.i
 
 CMakeFiles/cgz_test.dir/usart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cgz_test.dir/usart.cpp.s"
-	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tuto/code/1808/cgz_folder/test/usart.cpp -o CMakeFiles/cgz_test.dir/usart.cpp.s
+	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tuto/code/rk1808/cgz_folder/test/usart.cpp -o CMakeFiles/cgz_test.dir/usart.cpp.s
 
 CMakeFiles/cgz_test.dir/usart.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/cgz_test.dir/usart.cpp.o.provides.build: CMakeFiles/cgz_test.dir/usar
 
 CMakeFiles/cgz_test.dir/v4l2grab.cpp.o: CMakeFiles/cgz_test.dir/flags.make
 CMakeFiles/cgz_test.dir/v4l2grab.cpp.o: v4l2grab.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuto/code/1808/cgz_folder/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cgz_test.dir/v4l2grab.cpp.o"
-	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cgz_test.dir/v4l2grab.cpp.o -c /home/tuto/code/1808/cgz_folder/test/v4l2grab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tuto/code/rk1808/cgz_folder/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cgz_test.dir/v4l2grab.cpp.o"
+	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cgz_test.dir/v4l2grab.cpp.o -c /home/tuto/code/rk1808/cgz_folder/test/v4l2grab.cpp
 
 CMakeFiles/cgz_test.dir/v4l2grab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cgz_test.dir/v4l2grab.cpp.i"
-	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tuto/code/1808/cgz_folder/test/v4l2grab.cpp > CMakeFiles/cgz_test.dir/v4l2grab.cpp.i
+	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tuto/code/rk1808/cgz_folder/test/v4l2grab.cpp > CMakeFiles/cgz_test.dir/v4l2grab.cpp.i
 
 CMakeFiles/cgz_test.dir/v4l2grab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cgz_test.dir/v4l2grab.cpp.s"
-	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tuto/code/1808/cgz_folder/test/v4l2grab.cpp -o CMakeFiles/cgz_test.dir/v4l2grab.cpp.s
+	/home/tuto/code/1808/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tuto/code/rk1808/cgz_folder/test/v4l2grab.cpp -o CMakeFiles/cgz_test.dir/v4l2grab.cpp.s
 
 CMakeFiles/cgz_test.dir/v4l2grab.cpp.o.requires:
 
@@ -116,27 +116,27 @@ cgz_test_EXTERNAL_OBJECTS =
 cgz_test: CMakeFiles/cgz_test.dir/usart.cpp.o
 cgz_test: CMakeFiles/cgz_test.dir/v4l2grab.cpp.o
 cgz_test: CMakeFiles/cgz_test.dir/build.make
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgcodecs.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_calib3d.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_features2d.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgcodecs.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_video.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjpeg-turbo.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibwebp.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibpng.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibtiff.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjasper.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libIlmImf.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libzlib.a
-cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libtegra_hal.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgcodecs.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_calib3d.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_features2d.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgcodecs.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_video.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjpeg-turbo.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibwebp.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibpng.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibtiff.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjasper.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libIlmImf.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libzlib.a
+cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libtegra_hal.a
 cgz_test: CMakeFiles/cgz_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tuto/code/1808/cgz_folder/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cgz_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tuto/code/rk1808/cgz_folder/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cgz_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cgz_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -155,27 +155,27 @@ cgz_test_EXTERNAL_OBJECTS =
 CMakeFiles/CMakeRelink.dir/cgz_test: CMakeFiles/cgz_test.dir/usart.cpp.o
 CMakeFiles/CMakeRelink.dir/cgz_test: CMakeFiles/cgz_test.dir/v4l2grab.cpp.o
 CMakeFiles/CMakeRelink.dir/cgz_test: CMakeFiles/cgz_test.dir/build.make
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgcodecs.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_calib3d.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_features2d.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgcodecs.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_video.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjpeg-turbo.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibwebp.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibpng.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibtiff.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjasper.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libIlmImf.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libzlib.a
-CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libtegra_hal.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgcodecs.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_calib3d.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_features2d.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgcodecs.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_video.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjpeg-turbo.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibwebp.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibpng.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibtiff.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjasper.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libIlmImf.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libzlib.a
+CMakeFiles/CMakeRelink.dir/cgz_test: /home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libtegra_hal.a
 CMakeFiles/CMakeRelink.dir/cgz_test: CMakeFiles/cgz_test.dir/relink.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tuto/code/1808/cgz_folder/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CMakeFiles/CMakeRelink.dir/cgz_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tuto/code/rk1808/cgz_folder/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CMakeFiles/CMakeRelink.dir/cgz_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cgz_test.dir/relink.txt --verbose=$(VERBOSE)
 
 # Rule to relink during preinstall.
@@ -193,6 +193,6 @@ CMakeFiles/cgz_test.dir/clean:
 .PHONY : CMakeFiles/cgz_test.dir/clean
 
 CMakeFiles/cgz_test.dir/depend:
-	cd /home/tuto/code/1808/cgz_folder/test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tuto/code/1808/cgz_folder/test /home/tuto/code/1808/cgz_folder/test /home/tuto/code/1808/cgz_folder/test /home/tuto/code/1808/cgz_folder/test /home/tuto/code/1808/cgz_folder/test/CMakeFiles/cgz_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tuto/code/rk1808/cgz_folder/test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tuto/code/rk1808/cgz_folder/test /home/tuto/code/rk1808/cgz_folder/test /home/tuto/code/rk1808/cgz_folder/test /home/tuto/code/rk1808/cgz_folder/test /home/tuto/code/rk1808/cgz_folder/test/CMakeFiles/cgz_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cgz_test.dir/depend
 

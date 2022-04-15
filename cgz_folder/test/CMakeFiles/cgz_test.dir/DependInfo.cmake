@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tuto/code/1808/cgz_folder/test/usart.cpp" "/home/tuto/code/1808/cgz_folder/test/CMakeFiles/cgz_test.dir/usart.cpp.o"
-  "/home/tuto/code/1808/cgz_folder/test/v4l2grab.cpp" "/home/tuto/code/1808/cgz_folder/test/CMakeFiles/cgz_test.dir/v4l2grab.cpp.o"
+  "/home/tuto/code/rk1808/cgz_folder/test/usart.cpp" "/home/tuto/code/rk1808/cgz_folder/test/CMakeFiles/cgz_test.dir/usart.cpp.o"
+  "/home/tuto/code/rk1808/cgz_folder/test/v4l2grab.cpp" "/home/tuto/code/rk1808/cgz_folder/test/CMakeFiles/cgz_test.dir/v4l2grab.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -43,8 +43,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../3rdparty/opencv/opencv-linux-aarch64/include"
   "../3rdparty/opencv/opencv-linux-aarch64/include/opencv"
   "../3rdparty/opencv/opencv-linux-aarch64/include/opencv2"
-  "/home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/include"
-  "/home/tuto/code/1808/3rdparty/opencv/opencv-linux-aarch64/include/opencv"
+  "/home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/include"
+  "/home/tuto/code/rk1808/3rdparty/opencv/opencv-linux-aarch64/include/opencv"
   )
 
 # Targets to which this target links.
